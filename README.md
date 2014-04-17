@@ -1,7 +1,12 @@
+pointsource-user-profile
+========================
+
 This is the "Create a User Profile Page" assignment from
 http://54.186.217.46/#/2c97f1e0-988e-4d2f-8011-ab2c33f73f03
 
-Some notes:
+
+Notes
+-----
 
 * I spent most of the time demonstrating the javascript side, with a heavy emphasis on MV*,
   since that's what I primarily do. I try to stay current with css, but I'm primarily a
