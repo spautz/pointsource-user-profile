@@ -4,7 +4,7 @@
  */
 ;(function($, can, undefined) {
     // toggles whether or not we actually fetch data from the backend
-    var useFixture = true;
+    var useFixture = false;
 
     /**
      * @return $.Deferred
