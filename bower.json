@@ -17,6 +17,7 @@
   "dependencies": {},
   "devDependencies": {
     "canjs": "minor",
-    "html5shiv": "3.x"
+    "html5shiv": "3.x",
+    "jquery": "1.x"
   }
 }
