@@ -1,1 +1,17 @@
-Hello Mustache
+<div class="user-profile {{#if isFemale}}gender-female{{/if}} {{#if isMale}}gender-male{{/if}}">
+  <img src="./images/placeholder.png" alt="88x88 placeholder" />
+
+  <div class="address">
+    <!-- This would probably be better done as a helper on the data source, like .getAddress() -->
+    {{person.address.house-number}} {{person.address.street-name}}<br />
+    {{#if person.address.apt-#}}
+      apt. {{person.address.apt-#}}<br />
+    {{/if}}
+    {{person.address.city}}, {{person.address.st}}<br />
+    {{person.address.zip}}
+  </div>
+
+  <span class="name">
+    {{person.name.first}} {{person.name.last-name}}
+  </span>
+</div>
