@@ -1,2 +1,45 @@
+/*
+  Oy, I'd forgotten how annoying nested selectors are in plain css. I should've used less.
 
-/* @TODO */
+  This doesn't include a css reset (or any framework). Normally I'd have one.
+
+  I'm also assuming that Flexbox is *NOT* available -- although this seems like a perfect case
+  for it, depending on browser support.
+  In hindsight, I probably should have gone with display:table and table-cell, instead of
+  using vertical padding and line-height.
+*/
+
+.user-profile {
+  color: #575757;
+  font-family: Arial, sans-serif;
+  height: 96px;
+  padding-right: 19px;
+  width: 728px;
+}
+
+.user-profile img {
+  border-style: solid;
+  border-width: 4px;
+  float: left;
+  height: 88px;
+  margin-right: 10px;
+  width: 88px;
+}
+.user-profile.gender-female {
+  border-color: #ee4494;
+}
+.user-profile.gender-male {
+  border-color: #e7d5f3;
+}
+
+.user-profile .address {
+  float: right;
+  padding: 18px 0; /* cheap cop-out for vertical alignment: 96px total - 60px for text */
+  text-align: center;
+}
+
+.user-profile .name {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 96px;  /* cheap cop-out for vertical alignment */
+}
