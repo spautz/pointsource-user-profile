@@ -1,0 +1,22 @@
+{
+  "name": "pointsource-demo-app",
+  "version": "0.0.0",
+  "authors": [
+    "Steven Pautz <spautz@gmail.com>"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "//": "Note: .bowerrc sets the output directory to `public/bower_components`",
+  "dependencies": {},
+  "devDependencies": {
+    "canjs": "minor",
+    "html5shiv": "3.x"
+  }
+}

@@ -1,0 +1,33 @@
+// Documentation: http://www.jshint.com/docs/options/
+{
+    // Enforcing Options
+    "bitwise": true,
+    "camelcase": true,
+    "caseindent": true,
+    "curly": true,
+    "eqeqeq": true,
+    "es3": true,
+    "forin": true,
+    "freeze": true,
+    "immed": true,
+    "indent": 4,
+    "latedef": true,
+    "maxlen": 100,
+    "noarg": true,
+    "noempty": true,
+    "nonbsp": true,
+    "quotmark": "single",
+    "undef": true,
+    "unused": true,
+    "strict": true,
+    "trailing": true,
+    // Relaxing Options
+    "eqnull": true,
+    // Environment
+    "browser": true,
+    "globals": {
+        "module": true,
+        "require": true,
+        "steal": true
+    }
+}
